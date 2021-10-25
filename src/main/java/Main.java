@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args){
@@ -26,6 +28,20 @@ public class Main {
         for(String n : nameList){
             System.out.println(n);
         }
+        //반복자 사용
+        ArrayList<String> List=new ArrayList<String>();
+        List.add("a");
+        List.add("b");
+        List.add("c");
+
+        Iterator<String> it=List.iterator();
+
+       while(it.hasNext()){
+            System.out.println(it.next());
+        }
+
+
+
 
 
   }

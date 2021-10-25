@@ -1,6 +1,8 @@
 # java_practice
 
 ## 1. Arraylist
+* 배열 vs ArrayList
+배열은 저장공간의 크기가 고정적이지만, 어레이리스트는 가변적이다.
 - 관련 함수
     + add()
     + size()
